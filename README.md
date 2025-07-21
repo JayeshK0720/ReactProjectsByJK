@@ -36,5 +36,5 @@ npm run dev
 
 🙌 Author
 
-Made with 💻 by [Jayesh Kotkar]
+Made with 💻 by Jayesh Kotkar
 
