@@ -1,12 +1,41 @@
-# React + Vite
+##🗂️ Notes App
+A modern and minimal React-based interface designed for document card display. This is a basic prototype with a clean UI, created to simulate how document upload and download might look in a production app.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##✨ Features
+📄 Stylish card-based layout to visually represent each document.
+💡 Placeholder buttons for Download and Upload actions (non-functional for now).
+❌ Functional delete (or close) icon.
+📁 File size indication per card.
 
-Currently, two official plugins are available:
+Responsive and dark-themed design for better readability.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+⚠️ Note: Download and Upload buttons are currently just UI placeholders — functionality will be added in the future.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##⚙️ Tech Stack
+React.js – For component-based UI
+Tailwind CSS – For utility-first responsive styling
+Font Awesome – Icon library for UI elements
+Vite – Fast build tool and development server
+
+##📦 Getting Started
+cd docs-mini-app
+npm install
+npm run dev
+
+##🔧 Project Structure
+/public
+  └── pen-to-square.svg (or favicon)
+/src
+  ├── components/
+  └── App.jsx
+  
+##📌 To-Do
+ Implement download functionality.
+ Implement upload feature with file input or drag & drop.
+ Integrate with storage (e.g., Firebase, local storage).
+ Add document previews and metadata.
+
+##🙌 Author
+Made with 💻 by [Jayesh Kotkar]
+
